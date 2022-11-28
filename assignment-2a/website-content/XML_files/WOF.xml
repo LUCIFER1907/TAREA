@@ -1,0 +1,20 @@
+<WOF>
+<Hindi>
+  <Name>Allen Kodiyan</Name>
+  <Nationality>Indian</Nationality>
+  <score>94</score>
+  <img src="images/allen.jpg"/>
+</Hindi>
+<Spanish>
+  <Name>Paloma Soto</Name>
+  <Nationality>Bolivian</Nationality>
+  <score>93.5</score>
+  <img src="images/paloma.jpg"/>
+</Spanish>
+<German>
+  <Name>Akshay Chavan</Name>
+  <Nationality>Indian</Nationality>
+  <score>80</score>
+  <img src="images/akshay.jpg"/>
+</German>
+</WOF>

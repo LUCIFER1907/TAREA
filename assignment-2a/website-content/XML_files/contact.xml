@@ -1,0 +1,21 @@
+<Contact>
+<Mumbai>
+  <Name>SOKO Mumbai</Name>
+  <Address>F-8, Wenden Avenue, Central Railway Quarters, Matunga, Mumbai, 400019</Address>
+  <phone>+91-7738649869</phone>
+  <email>Mumbai@soko.com</email>
+ 
+</Mumbai>
+<La_Paz>
+  <Name>SOKO La Paz</Name>
+  <Address>21 Calacoto Street, General Inofuentes Avenue, 1515</Address>
+  <phone>+591-72515554</phone>
+  <email>La_Paz@soko.com</email>
+</La_Paz>
+<Cottbus>
+  <Name>SOKO Cottbus</Name>
+  <Address>403-5, Erich Wienert Str 4, App. 403-5, 03046, Cottbus</Address>
+  <phone>+49-10015252329</phone>
+  <email>Cottbus@soko.com</email>
+</Cottbus>
+</Contact>
