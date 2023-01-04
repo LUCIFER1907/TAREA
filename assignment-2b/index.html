@@ -3,34 +3,140 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOKO</title>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+   <style>
+    .container{
+        position: relative;
+    }
 
-    <style>
+    .container .wrapper{
+        width: 60vw;
+        height: 75vh;
+        box-shadow: 10px, 10px, 20px rgba(0,0,0,0.6);
+        margin: 5rem auto;
+    }
 
-    </style>
+    .container .wrapper-holder{
+        display: grid;
+        grid-template-columns: repeat(4, 100%);
+        height: 100%;
+        width: 100%;
+    }
+
+    .container #slider-img-1{
+        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/Freiheit.png);
+        background-position: center;
+    }
+    .container #slider-img-2{
+        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/3390320464_c626035b8e_w.jpg);
+        background-position: center;
+    }
+    .container #slider-img-3{
+        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/Gehalt_mask.png);
+        background-position: center;
+    }
+    .container #slider-img-4{
+        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/hindi1.png);
+        background-position: center;
+    }
+    .container #slider-img-5{
+        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/kaufen.png);
+        background-position: center;
+    }
+    .container #slider-img-6{
+        background-image: url(home/huda/TAREA/assignment-2a/website-content/images/Slider/Spanish_Empire.png);
+        background-position: center;
+    }
+    .container #slider-img-7{
+        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/Spanish_Variants.jpg);
+        background-position: center;
+    }
+    .container #slider-img-8{
+        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/Useful_Spanish_Travel_Phrases_Word_Cloud.jpg);
+        background-position: center;
+    }
+    .container #slider-img-9{
+        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/verstehen.png);
+        background-position: center;
+    }
+
+    .container .button-holder .button{
+        background-color: white;
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        display: inline-block;
+        margin: .3rem;
+    }
+
+    .container .button-holder{
+        position: absolute;
+        left: 45%;
+        bottom: 
+    }
+
+
+
+
+   </style>
 
 </head>
 <body>
     <!--Header-->
     <header>
-        <img src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg" class="logo">
-            <div>
-                <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li>
-                     <li><a href="contact.html">Contact</a></li>
-                     <li><a href="login.html">Login</a></li>
-                     <li><a href="courses.html">Courses</a></li>
-                     <li><a href="exam.html">Exam</a></li>
-                     <li><a href="wallOfFame.html">Wall of fame</a></li>
-                     <li><a href="career.html">Carrer</a></li>
-                </ul>
-            </div>
+        <a href="#"><img id="logo" src="C:\Users\User\Desktop\2c\ContactForm\logo.PNG"></a>
+        <div class="navigation">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="exam.html">Exam</a></li>
+                <li><a href="walloffame.html">Wall Of Fame</a></li>
+                <li><a href="career.html">Career</a></li>
+            </ul>
+          </div>
     </header>
     <!--Main-->
  
+    <div class="container">
+        <div class="wrapper">
+            <!-- Additional required wrapper -->
+            <div class="wrapper-holder">
+              <!-- Slides -->
+              <div id="slider-img-1"></div>
+              <div id="slider-img-2"></div>
+              <div id="slider-img-3"></div>
+              <div id="slider-img-4"></div>
+              <div id="slider-img-5"></div>
+              <div id="slider-img-6"></div>
+              <div id="slider-img-7"></div>
+              <div id="slider-img-8"></div>
+              <div id="slider-img-9"></div>
+            </div>
+        </div>
+        <div class="button-holder">
+            <a href="#slider-img-1" class="button"></a>
+            <a href="#slider-img-2" class="button"></a>
+            <a href="#slider-img-3" class="button"></a>
+            <a href="#slider-img-4" class="button"></a>
+            <a href="#slider-img-5" class="button"></a>
+            <a href="#slider-img-6" class="button"></a>
+            <a href="#slider-img-7" class="button"></a>
+            <a href="#slider-img-8" class="button"></a>
+            <a href="#slider-img-9" class="button"></a>
+        </div>
+
+        
+        </div>
+    </div> 
+
         <video autoplay loop muted plays-inline class="videoindex">
             <source src="/home/huda/TAREA/assignment-2b/video/video1.mp4" type="video/mp4">
         </video>
@@ -47,7 +153,7 @@
             you in achieving your goals. -Not only this, with our splendid track record in language teaching, many 
             national and international companies are approaching us for hiring of language experts.
         </p>
-    </div>
+   
 
     <!--Footer take this part-->
     <footer class="footer">
@@ -63,5 +169,33 @@
         </div>
     </footer>  
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+        
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+              // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+              // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+
+    </script>
+
 </body>
 </html>
+

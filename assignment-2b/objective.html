@@ -3,13 +3,34 @@
 <head>
    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8" />
-    
-    <link rel="preconnect" href=""
+    <title>SOKO</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
 </head>
 <style>
+    .videoObjective {
+        border: 1px solid black;
+        width: 30%; 
+        height: 350; 
+        margin-top: 80px; 
+        margin-left: 25%; 
+        float: left;
+    }
 
-  </style>
+    .paraObjective{
+        border: 1px solid black;
+        width: 50%; 
+        height: 350; 
+        margin-top: 80px; 
+        margin-left: 25%; 
+        float: left;
+    }
+
+</style>
 <body>
     <!--Menu bar + logo-->
     <header>
@@ -31,26 +52,58 @@
     <main>
         <title>About us</title>
         <section class="section">
-            <img src="/home/huda/TAREA/assignment-2a/website-content/images/mission.jpg" class="mission">
+            <p class="paraObjective">Enabling Language access to everyone in an easy way Employing deserving Language professionals Integration of Different Culture.</p>
             
-            <p>Enabling Language access to everyone in an easy way -Employing deserving Language professionals -Integration of Different Culture.</p>
-            
-            
-            <video width="500" height="700" controls>
+            <video class="videoObjective" width="500" height="700" controls>
                 <source src="" type="video/mp4">
             </video>
             
         </section>
+        <section class="changeButton">
+            <a href="/home/huda/TAREA/assignment-2b/mission.html"><button id="mission">Mission</button></a>
+            <a href="/home/huda/TAREA/assignment-2b/vision.html"><button id="vision">Vision</button></a>
+            <a href="/home/huda/TAREA/assignment-2b/objective.html"><button id="objective">objective</button></a>
+            
+            <script>
+              /*const button1 = document.querySelector('#mission');
+                const button2 = document.querySelector('#vision');
+                const button3 = document.querySelector('#objective');
+                function changeContent() {
+                    document.getElementById('mission'),addEventListener('click', changeContent);
+                    document.getElementById('myelem').innerHTML = 'balabababbabababba'
+                }*/ 
+
+                const button = document.querySelector('#mission');
+                
+
+                button.addEventListener('click', function() {
+                    content.innerHTML = 'This is the new content';
+                });
+
+            </script>
+
+
+          
+        </section>
         <aside>
 
+            
         </aside>
-        <footer>
-           
-            <img src="/home/huda/TAREA/assignment-2b/images/instagram.png" alt="instagram" />
-            <img src="/home/huda/TAREA/assignment-2b/images/facebook-social-logo.png" alt="facebook" />
-            <img src="/home/huda/TAREA/assignment-2b/images/twitter.png" alt="twitter" />
+    <!--Footer -->
 
-        </footer>
+    <!--Footer -->
+    <footer class="footer">
+        <div class="footer-col">
+            
+            <div class="social-links">
+                 <a href="#"><i class="fab fa-facebook"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+
+
+        </div>
+    </footer>  
     </main>
 
 

@@ -3,10 +3,13 @@
 <head>
    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8" />
     <title>SOKO</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-    <link rel="preconnect" href=""
 </head>
 <style>
     .x-box {
@@ -15,19 +18,27 @@
         border-radius: 50%;
         background-color: red;
 
+
         background:repeating-conic-gradient(
             from 0deg,
             #ff0000 0deg calc(3.6deg*50),
             #006600 calc(3.6deg*50) calc(3.6deg*70),
             #ffff00 calc(3.6deg*70) calc(3.6deg*100)
         );
-
     }
     .x-box-cont {
         font-size: 30px;
         padding-left: 50px;
     }
-  </style>
+    .sectionAbout {
+        border: 1px solid rgb(255, 255, 255);
+        width: 30%; 
+        height: 350; 
+        margin-top: 80px; 
+        margin-left: 35%; 
+        float: left;
+    }
+</style>
 <body>
     <!--Menu bar + logo-->
     <header>
@@ -47,40 +58,66 @@
     </header>
     
     <main>
-        <title>About us</title>
-        <section class="section">
-            <img src="/home/huda/TAREA/assignment-2a/website-content/images/achievments.jpg" class="achievments">
-            <h3>Cofounders</h3>
-            <p>Paloma Soto : Paloma Soto is a Bolivian womam who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. --She is an exteremly talented and fun individual and likes to workout and go for Jogs. --She has completed her Bacherlors Systems Engineering from Military Engineering School, University that works in different Engineering Specialities.
-               Allen Kodiyan : Allen Kodiyan is an Indian man who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. --He is a wonderful professional in IT field, he likes to enjoy evenings with friends and a couple of cigs. --He also finished his Bachelor in Information Technology Engineering from University of Mumbai.
-            </p>
-            <div class="x-box"></div>
-            <div class="x-box-cont">
+        <h1>About us</h1>
+        <section class="sectionAbout">
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/team.jpg" width="800">
+            <h1>Cofounders</h1>
+            <p><strong>Paloma Soto</strong> is a Bolivian womam who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. She is an exteremly talented and fun individual and likes to workout and go for Jogs. She has completed her Bacherlors Systems Engineering from Military Engineering School, University that works in different Engineering Specialities.</p>
+            <p><strong>Allen Kodiyan</strong> is an Indian man who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. He is a wonderful professional in IT field, he likes to enjoy evenings with friends and a couple of cigs. He also finished his Bachelor in Information Technology Engineering from University of Mumbai.</p>
+            <div class="x-box">
+                <div class="x-box-cont"></div>
                 <strong style="color: #ff0000">Spanish students 50%</strong>
                 <strong style="color: #006600">Hindi 20%</strong>
                 <strong style="color: #ffff00">German students 30%</strong>
 
+            
             </div>
+        </section>
+
+
+        <section class="changeButton">
+            <a href="/home/huda/TAREA/assignment-2b/mission.html"><button id="mission">Mission</button></a>
+            <a href="/home/huda/TAREA/assignment-2b/vision.html"><button id="vision">Vision</button></a>
+            <a href="/home/huda/TAREA/assignment-2b/objective.html"><button id="objective">objective</button></a>
+            
+            <script>
+              /*const button1 = document.querySelector('#mission');
+                const button2 = document.querySelector('#vision');
+                const button3 = document.querySelector('#objective');
+                function changeContent() {
+                    document.getElementById('mission'),addEventListener('click', changeContent);
+                    document.getElementById('myelem').innerHTML = 'balabababbabababba'
+                }*/ 
+
+                const button = document.querySelector('#mission');
+                
+
+                button.addEventListener('click', function() {
+                    content.innerHTML = 'This is the new content';
+                });
+
+            </script>
 
 
           
         </section>
         <aside>
 
+            
         </aside>
-        <footer class="footer">
-           
-            <img src="/home/huda/TAREA/assignment-2b/images/instagram.png" alt="instagram" />
-            <img src="/home/huda/TAREA/assignment-2b/images/facebook-social-logo.png" alt="facebook" />
-            <img src="/home/huda/TAREA/assignment-2b/images/twitter.png" alt="twitter" />
+    <!--Footer -->
 
-        </footer>
-    </main>
-
-
-
-
-
+        
+    <footer class="footer" >
+        <div class="footer-col">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    </main>   
 
 </body>
 </html>
