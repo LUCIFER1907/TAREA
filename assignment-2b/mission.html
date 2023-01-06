@@ -34,21 +34,21 @@
 </style>
 <body>
     <!--Menu bar + logo-->
-    <header>
-        <img src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg" class="logo">
-            <div>
-                <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li>
-                     <li><a href="contact.html">Contact</a></li>
-                     <li><a href="login.html">Login</a></li>
-                     <li><a href="courses.html">Courses</a></li>
-                     <li><a href="exam.html">Exam</a></li>
-                     <li><a href="wallOfFame.html">Wall of fame</a></li>
-                     <li><a href="career.html">Carrer</a></li>
-                </ul>
-            </div>
-    </header>
+ <!--Header-->
+ <header>
+    <a href="#"><img id="logo" src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg"></a>
+    <div class="navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+        <a href="courses.html">Courses</a>
+        <a href="exam.html">Exam</a>
+        <a href="walloffame.html">Wall Of Fame</a>
+        <a href="career.html">Career</a>
+      </div>
+</header>
+<!--Main-->
     
     <main>
         <h1>About us</h1>
@@ -62,24 +62,6 @@
                 <a href="/home/huda/TAREA/assignment-2b/mission.html"><button id="mission">Mission</button></a>
                 <a href="/home/huda/TAREA/assignment-2b/vision.html"><button id="vision">Vision</button></a>
                 <a href="/home/huda/TAREA/assignment-2b/objective.html"><button id="objective">objective</button></a>
-                
-                <script>
-                  /*const button1 = document.querySelector('#mission');
-                    const button2 = document.querySelector('#vision');
-                    const button3 = document.querySelector('#objective');
-                    function changeContent() {
-                        document.getElementById('mission'),addEventListener('click', changeContent);
-                        document.getElementById('myelem').innerHTML = 'balabababbabababba'
-                    }*/ 
-    
-                    const button = document.querySelector('#mission');
-                    
-    
-                    button.addEventListener('click', function() {
-                        content.innerHTML = 'This is the new content';
-                    });
-    
-                </script>
     
     
               
@@ -91,18 +73,16 @@
         <!--Footer -->
     
     <!--Footer -->
-    <footer class="footer">
-        <div class="footer-col">
-            
-            <div class="social-links">
-                 <a href="#"><i class="fab fa-facebook"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-
-
+    <footer>
+        <div class="container">
+          <div class="footer-right">
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/instagram-logo.png" alt="Instagram logo"></a>
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/twitter-logo.png" alt="Twitter logo"></a>
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/facebook-logo.png" alt="Facebook logo"></a>
+          </div>
         </div>
-    </footer>  
+      </footer> 
+
     </main>
 
 

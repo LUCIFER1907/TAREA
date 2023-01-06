@@ -10,77 +10,97 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     
    <style>
-    .container{
-        position: relative;
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    
+}
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.images img {
+
+    align-items: center;
+    transition: all 0.15s ease;
+    width: 2000px;
+    height: 1000px;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #983FAA 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #983FAA;}
+#img1:checked ~ .m1 {
+    margin-left: 10;
+}
+#img2:checked ~ .m2 {
+    margin-left: -150%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -350%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -500%;
+}
+#img5:checked ~ .m5 {
+    margin-left: -700%;
+}
+#img6:checked ~ .m6 {
+    margin-left: -900%;
+}
+#img7:checked ~ .m7 {
+    margin-left: -1100%;
+}
+#img8:checked ~ .m8 {
+    margin-left: -1300%;
+}
+#img9:checked ~ .m9 {
+    margin-left: -1500%;
+}
+
+.sectionIndex {
+        border: 1px solid rgb(255, 255, 255);
+        width: 100; 
+        height:100; 
+        margin-top: -200px; 
+        margin-left: 30%; 
+        float: left;
     }
 
-    .container .wrapper{
-        width: 60vw;
-        height: 75vh;
-        box-shadow: 10px, 10px, 20px rgba(0,0,0,0.6);
-        margin: 5rem auto;
+    .sectionIndex video{
+       
+        width: 900px; 
+        height: 900px; 
+    
     }
 
-    .container .wrapper-holder{
-        display: grid;
-        grid-template-columns: repeat(4, 100%);
-        height: 100%;
-        width: 100%;
+    .paraIndex{
+        border: 1px solid black;
+        width: 15%; 
+        height: 300; 
+        margin-top: 40px; 
+        margin-left: -70%; 
+        float: left;
     }
-
-    .container #slider-img-1{
-        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/Freiheit.png);
-        background-position: center;
-    }
-    .container #slider-img-2{
-        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/3390320464_c626035b8e_w.jpg);
-        background-position: center;
-    }
-    .container #slider-img-3{
-        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/Gehalt_mask.png);
-        background-position: center;
-    }
-    .container #slider-img-4{
-        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/hindi1.png);
-        background-position: center;
-    }
-    .container #slider-img-5{
-        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/kaufen.png);
-        background-position: center;
-    }
-    .container #slider-img-6{
-        background-image: url(home/huda/TAREA/assignment-2a/website-content/images/Slider/Spanish_Empire.png);
-        background-position: center;
-    }
-    .container #slider-img-7{
-        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/Spanish_Variants.jpg);
-        background-position: center;
-    }
-    .container #slider-img-8{
-        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/Useful_Spanish_Travel_Phrases_Word_Cloud.jpg);
-        background-position: center;
-    }
-    .container #slider-img-9{
-        background-image: url(/home/huda/TAREA/assignment-2a/website-content/images/Slider/verstehen.png);
-        background-position: center;
-    }
-
-    .container .button-holder .button{
-        background-color: white;
-        width: 15px;
-        height: 15px;
-        border-radius: 15px;
-        display: inline-block;
-        margin: .3rem;
-    }
-
-    .container .button-holder{
-        position: absolute;
-        left: 45%;
-        bottom: 
-    }
-
-
 
 
    </style>
@@ -89,58 +109,65 @@
 <body>
     <!--Header-->
     <header>
-        <a href="#"><img id="logo" src="C:\Users\User\Desktop\2c\ContactForm\logo.PNG"></a>
+        <a href="#"><img id="logo" src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg"></a>
         <div class="navigation">
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="exam.html">Exam</a></li>
-                <li><a href="walloffame.html">Wall Of Fame</a></li>
-                <li><a href="career.html">Career</a></li>
-            </ul>
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="courses.html">Courses</a>
+            <a href="exam.html">Exam</a>
+            <a href="walloffame.html">Wall Of Fame</a>
+            <a href="career.html">Career</a>
           </div>
     </header>
+
+
+
+
+
+
     <!--Main-->
- 
-    <div class="container">
-        <div class="wrapper">
-            <!-- Additional required wrapper -->
-            <div class="wrapper-holder">
-              <!-- Slides -->
-              <div id="slider-img-1"></div>
-              <div id="slider-img-2"></div>
-              <div id="slider-img-3"></div>
-              <div id="slider-img-4"></div>
-              <div id="slider-img-5"></div>
-              <div id="slider-img-6"></div>
-              <div id="slider-img-7"></div>
-              <div id="slider-img-8"></div>
-              <div id="slider-img-9"></div>
-            </div>
-        </div>
-        <div class="button-holder">
-            <a href="#slider-img-1" class="button"></a>
-            <a href="#slider-img-2" class="button"></a>
-            <a href="#slider-img-3" class="button"></a>
-            <a href="#slider-img-4" class="button"></a>
-            <a href="#slider-img-5" class="button"></a>
-            <a href="#slider-img-6" class="button"></a>
-            <a href="#slider-img-7" class="button"></a>
-            <a href="#slider-img-8" class="button"></a>
-            <a href="#slider-img-9" class="button"></a>
-        </div>
+    <div class="slider">
+        <div class="images">
+            <input type="radio" name="slide" id="img1" checked>
+            <input type="radio" name="slide" id="img2">
+            <input type="radio" name="slide" id="img3">
+            <input type="radio" name="slide" id="img4">
+            <input type="radio" name="slide" id="img5">
+            <input type="radio" name="slide" id="img6">
+            <input type="radio" name="slide" id="img7">
+            <input type="radio" name="slide" id="img8">
+            <input type="radio" name="slide" id="img9">
 
-        
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/Slider/1.png" class="m1" alt="img1">
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/Slider/2.jpg" class="m2" alt="img2">
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/Slider/3.png" class="m3" alt="img3">
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/Slider/4.png" class="m4" alt="img4">
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/Slider/5.png" class="m5" alt="img5">
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/Slider/6.png" class="m6" alt="img6">
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/Slider/7.jpg" class="m7" alt="img7">
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/Slider/8.jpg" class="m8" alt="img8">
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/Slider/9.png" class="m9" alt="img9">
         </div>
-    </div> 
-
-        <video autoplay loop muted plays-inline class="videoindex">
+        <div class="dots">
+            <label for="img1"></label>
+            <label for="img2"></label>
+            <label for="img3"></label>
+            <label for="img4"></label>
+            <label for="img5"></label>
+            <label for="img6"></label>
+            <label for="img7"></label>
+            <label for="img8"></label>
+            <label for="img9"></label>
+        </div>
+    </div>
+    <section class="sectionIndex">
+        <video>
             <source src="/home/huda/TAREA/assignment-2b/video/video1.mp4" type="video/mp4">
         </video>
-
+    </section>
+    <section class="paraIndex">
         <p>The SOKO Language center was founded by Paloma Soto and Allen Kodiyan, two students 
             studying at BTU Cottbus for for Masters of Cyber Security.
             We organize lot of events inorder to let the people of different places and cultures know each other
@@ -153,48 +180,20 @@
             you in achieving your goals. -Not only this, with our splendid track record in language teaching, many 
             national and international companies are approaching us for hiring of language experts.
         </p>
-   
+    </section>
 
     <!--Footer take this part-->
-    <footer class="footer">
-        <div class="footer-col">
-            
-            <div class="social-links">
-                 <a href="#"><i class="fab fa-facebook"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-
-
+    <footer>
+        <div class="container">
+          <div class="footer-right">
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/instagram-logo.png" alt="Instagram logo"></a>
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/twitter-logo.png" alt="Twitter logo"></a>
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/facebook-logo.png" alt="Facebook logo"></a>
+          </div>
         </div>
-    </footer>  
+      </footer> 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-    <script>
-        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-        
-        const swiper = new Swiper('.swiper', {
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            loop: true,
-
-              // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-              // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-        });
-
-    </script>
 
 </body>
 </html>

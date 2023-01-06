@@ -1,19 +1,69 @@
+@font-face {
+    font-family: myFont;
+    src: url(Quantum.otf);
+}
+h1 .navigation{
+    font-family: myFont;
+}
+
+@font-face {
+    font-family: myFont1;
+    src: url(Dream\ Orphans.otf);
+}
+p label{
+    font-family: myFont1;
+}
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
+    
+    
   }
 
 body {
     margin: 25px;
-    background-color: #FFFFFF;
+    background-color: #e2c8e7;
     font-family: arial, sans-serif;
     font-size: 14px;
+    
+  }
+  .navigation
+  {
+    background-color: #983FAA;
+    margin: auto;
+    width: 90%;
+    border: 1px solid #000000;
+    padding: 10px 0;
+    margin-bottom: 100px;
+    block-size: 80px;
+    text-indent: 25px;
+    word-spacing: 10px;
+    text-align: center;
+  }
+  #logo 
+  {
+      display: inline-block;
+      margin: 15px; /* margin: 20px was off */
+      height: 50px;
+      float: left;
+      width: auto; /* correct proportions to specified height */
+      border-radius: 10%; /* makes it a circle */
+      
   }
 
-header {
+  .navigation a{
+    color: white;
+    margin-left: 40px;   
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 60px;
+
+}
+
+/*header {
     padding: 0;
     margin: 0;
     display: flex;
@@ -26,7 +76,7 @@ header {
 
 .logo {
     width: 80px;
-    flex: 0.3
+    flex: 0.3;
 }
 
 header ul{
@@ -46,7 +96,7 @@ header a{
     border-radius: 3px;
 }
 
-/* Footer take this*/ 
+ Footer take this 
 
 .footer{
 
@@ -57,9 +107,10 @@ header a{
     align-items: center;
     justify-content: center;
     flex-direction:column;
-    
-    
-   
+    width: 98.7%; 
+    height: 80px; 
+    margin-top: 500px;
+
 }
 
 .footer-col{
@@ -104,5 +155,29 @@ header a{
     align-items: center;
     justify-content: center;
    
-}
+}*/
 /*till here */ 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
+  .footer-right img {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+  }
+  

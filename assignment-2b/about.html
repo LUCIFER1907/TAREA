@@ -26,98 +26,159 @@
             #ffff00 calc(3.6deg*70) calc(3.6deg*100)
         );
     }
+
     .x-box-cont {
         font-size: 30px;
         padding-left: 50px;
     }
-    .sectionAbout {
-        border: 1px solid rgb(255, 255, 255);
-        width: 30%; 
-        height: 350; 
-        margin-top: 80px; 
-        margin-left: 35%; 
-        float: left;
-    }
-</style>
+
+
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 300px 1000px 1000px;
+    grid-template-rows: 1000px 300px 1000px;
+    gap: 34px;
+  }
+  
+  .grid > div {
+    background-color: lightgray;
+  }
+ 
+ </style> 
+  
+
+
+
 <body>
-    <!--Menu bar + logo-->
-    <header>
-        <img src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg" class="logo">
-            <div>
-                <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li>
-                     <li><a href="contact.html">Contact</a></li>
-                     <li><a href="login.html">Login</a></li>
-                     <li><a href="courses.html">Courses</a></li>
-                     <li><a href="exam.html">Exam</a></li>
-                     <li><a href="wallOfFame.html">Wall of fame</a></li>
-                     <li><a href="career.html">Carrer</a></li>
-                </ul>
-            </div>
-    </header>
-    
-    <main>
+ <!--Header-->
+ <header>
+    <a href="#"><img id="logo" src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg"></a>
+    <div class="navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+        <a href="courses.html">Courses</a>
+        <a href="exam.html">Exam</a>
+        <a href="walloffame.html">Wall Of Fame</a>
+        <a href="career.html">Career</a>
+      </div>
+</header>
+<!--Main-->
+<main>
+      
         <h1>About us</h1>
-        <section class="sectionAbout">
-            <img src="/home/huda/TAREA/assignment-2a/website-content/images/team.jpg" width="800">
-            <h1>Cofounders</h1>
-            <p><strong>Paloma Soto</strong> is a Bolivian womam who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. She is an exteremly talented and fun individual and likes to workout and go for Jogs. She has completed her Bacherlors Systems Engineering from Military Engineering School, University that works in different Engineering Specialities.</p>
-            <p><strong>Allen Kodiyan</strong> is an Indian man who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. He is a wonderful professional in IT field, he likes to enjoy evenings with friends and a couple of cigs. He also finished his Bachelor in Information Technology Engineering from University of Mumbai.</p>
-            <div class="x-box">
-                <div class="x-box-cont"></div>
-                <strong style="color: #ff0000">Spanish students 50%</strong>
-                <strong style="color: #006600">Hindi 20%</strong>
-                <strong style="color: #ffff00">German students 30%</strong>
 
-            
+    
+        <div class="grid">
+            <div>
+                <a href="#mission"><button id="mission">Mission</button></a>
+                <a href="#vision"><button id="vision">Vision</button></a>
+                <a href="#objective"><button id="objective">objective</button></a>
+            </div>
+            <div> 
+                <img src="/home/huda/TAREA/assignment-2a/website-content/images/team.jpg" width="1000">
+                <h1>Cofounders</h1>
+                <p><strong>Paloma Soto</strong> is a Bolivian womam who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. She is an exteremly talented and fun individual and likes to workout and go for Jogs. She has completed her Bacherlors Systems Engineering from Military Engineering School, University that works in different Engineering Specialities.</p>
+                <p><strong>Allen Kodiyan</strong> is an Indian man who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. He is a wonderful professional in IT field, he likes to enjoy evenings with friends and a couple of cigs. He also finished his Bachelor in Information Technology Engineering from University of Mumbai.</p>
+                <div class="x-box">
+                    <div class="x-box-cont"></div>
+                    <strong style="color: #ff0000">Spanish students 50%</strong>
+                    <strong style="color: #006600">Hindi 20%</strong>
+                    <strong style="color: #ffff00">German students 30%</strong>
+                </div>
+            </div>
+            <div></div>
+        
+
+
+            <div>
+                <a href="#mission"><button id="mission">Mission</button></a>
+                <a href="#vision"><button id="vision">Vision</button></a>
+                <a href="#objective"><button id="objective">objective</button></a>
+            </div>
+            <div>
+                <img src="/home/huda/TAREA/assignment-2a/website-content/images/mission.jpg" width="1000">
+            </div>
+               
+                
+            <div>
+                <p>To develope Multilingualism in people and make help them to integrate into different types of Society in different parts of the world -To train preofessionals in different languages and help them work efficently in different parts of the world.</p>
+            </div>
+        
+            <div><p>iujhzgfghujilpäokijhgfhjko</p></div>
+            <div><p>iujhzgfghujilpäokijhgfhjko</p></div>
+            <div><p>iujhzgfghujilpäokijhgfhjko</p></div>
+        
+            <div> 
+                <a href="#mission"><button id="mission">Mission</button></a>
+                <a href="#vision"><button id="vision">Vision</button></a>
+                <a href="#objective"><button id="objective">objective</button></a>
+            </div>
+            <div><video width="1000" height="600" controls> 
+                <source src="/home/huda/TAREA/assignment-2b/video/video2.mp4" type="video/mp4"></video>
+            </div>
+
+            <div>
+                <p>Enabling Language access to everyone in an easy way Employing deserving Language professionals Integration of Different Culture.</p>
+            </div>
+
+        </div>
+    
+ <!--       <section id="about" class="sectionAbout"> 
+            <div class="button">
+                <a href="#mission"><button id="mission">Mission</button></a>
+                <a href="#vision"><button id="vision">Vision</button></a>
+                <a href="#objective"><button id="objective">objective</button></a>
+            </div>
+            <img src="/home/huda/TAREA/assignment-2a/website-content/images/team.jpg" width="800">
+            <div class="description">
+                <h1>Cofounders</h1>
+                <p><strong>Paloma Soto</strong> is a Bolivian womam who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. She is an exteremly talented and fun individual and likes to workout and go for Jogs. She has completed her Bacherlors Systems Engineering from Military Engineering School, University that works in different Engineering Specialities.</p>
+                <p><strong>Allen Kodiyan</strong> is an Indian man who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. He is a wonderful professional in IT field, he likes to enjoy evenings with friends and a couple of cigs. He also finished his Bachelor in Information Technology Engineering from University of Mumbai.</p>
+                <div class="x-box">
+                    <div class="x-box-cont"></div>
+                    <strong style="color: #ff0000">Spanish students 50%</strong>
+                    <strong style="color: #006600">Hindi 20%</strong>
+                    <strong style="color: #ffff00">German students 30%</strong>
+                </div>
             </div>
         </section>
 
-
-        <section class="changeButton">
-            <a href="/home/huda/TAREA/assignment-2b/mission.html"><button id="mission">Mission</button></a>
-            <a href="/home/huda/TAREA/assignment-2b/vision.html"><button id="vision">Vision</button></a>
-            <a href="/home/huda/TAREA/assignment-2b/objective.html"><button id="objective">objective</button></a>
-            
-            <script>
-              /*const button1 = document.querySelector('#mission');
-                const button2 = document.querySelector('#vision');
-                const button3 = document.querySelector('#objective');
-                function changeContent() {
-                    document.getElementById('mission'),addEventListener('click', changeContent);
-                    document.getElementById('myelem').innerHTML = 'balabababbabababba'
-                }*/ 
-
-                const button = document.querySelector('#mission');
-                
-
-                button.addEventListener('click', function() {
-                    content.innerHTML = 'This is the new content';
-                });
-
-            </script>
-
-
-          
+        <section id="mission" class="sectionMission">
+                <img src="/home/huda/TAREA/assignment-2a/website-content/images/mission.jpg" width="700">
+               
+                <p>To develope Multilingualism in people and make help them to integrate into different types of Society in different parts of the world -To train preofessionals 
+                in different languages and help them work efficently in different parts of the world.</p>
         </section>
-        <aside>
 
-            
-        </aside>
-    <!--Footer -->
+        <section id="objective" class="sectionObjective">
+                <p>Enabling Language access to everyone in an easy way Employing deserving Language professionals Integration of Different Culture.</p>
+                
+                <video width="500" height="700" controls>
+                    <source src="" type="video/mp4">
+                </video>
+                
+        </section>
+
+
+
+
+   Footer -->
 
         
-    <footer class="footer" >
-        <div class="footer-col">
-            <div class="social-links">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
+    <footer>
+        <div class="container">
+          <div class="footer-right">
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/instagram-logo.png" alt="Instagram logo"></a>
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/twitter-logo.png" alt="Twitter logo"></a>
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/facebook-logo.png" alt="Facebook logo"></a>
+          </div>
         </div>
-    </footer>
-    </main>   
+    </footer> 
+
+</main>   
 
 </body>
 </html>

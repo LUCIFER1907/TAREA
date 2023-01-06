@@ -30,6 +30,7 @@
         text-align: center;
         padding: 0 0 20px 0; 
         border-bottom: 1px solid white;
+        color: white;
     } 
     .signupCenter form{   
         padding: 0 40px;
@@ -38,6 +39,7 @@
     form .textField{
         position: relative;
         margin: 30px 0;
+        color: white;
     }
     .textField input{
         width: 100%;
@@ -46,7 +48,7 @@
         font-size: 16px;
         border: white;
         background: white;
-        outline: black;
+        outline: white;
     }
 
     .textField span::before{
@@ -61,7 +63,8 @@
     }
 
     input[type="submit"]{
-        width: 50%;
+        display: inline-block;
+        width: 49%;
         height: 50px;
         border: 1px so8lid;
         background: #b880c4;
@@ -81,21 +84,21 @@
 </head>
 <body>
     <!--Header-->
+ <!--Header-->
+    <!--Header-->
     <header>
-        <img src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg" class="logo">
-            <div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="courses.html">Courses</a></li>
-                    <li><a href="exam.html">Exam</a></li>
-                    <li><a href="wallOfFame.html">Wall of fame</a></li>
-                    <li><a href="career.html">Carrer</a></li>
-                </ul>
-            </div>
-    </header>
+        <a href="#"><img id="logo" src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg"></a>
+        <div class="navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="courses.html">Courses</a>
+            <a href="exam.html">Exam</a>
+            <a href="walloffame.html">Wall Of Fame</a>
+            <a href="career.html">Career</a>
+          </div>
+<!--Main-->
 
     <div class="signupCenter">
         <h1>Sign Up</h1>
@@ -131,15 +134,17 @@
     <!--Footer -->
 
         
-    <footer class="footer" >
-        <div class="footer-col">
-            <div class="social-links">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
+    <footer>
+        <div class="container">
+          <div class="footer-right">
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/instagram-logo.png" alt="Instagram logo"></a>
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/twitter-logo.png" alt="Twitter logo"></a>
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/facebook-logo.png" alt="Facebook logo"></a>
+          </div>
         </div>
-    </footer>
+      </footer> 
+
+
     
 
 </body>
