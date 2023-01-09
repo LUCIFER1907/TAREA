@@ -11,12 +11,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
 </head>
+
+
 <style>
     .x-box {
         width: 20vh;
         height: 20vh;
         border-radius: 50%;
         background-color: red;
+        margin-left: 600px;
+        margin-top: -180px; 
 
 
         background:repeating-conic-gradient(
@@ -29,22 +33,59 @@
 
     .x-box-cont {
         font-size: 30px;
-        padding-left: 50px;
+        padding-left: 20px;
     }
 
 
-  
-  .grid {
-    display: grid;
-    grid-template-columns: 300px 1000px 1000px;
-    grid-template-rows: 1000px 300px 1000px;
-    gap: 34px;
-  }
-  
-  .grid > div {
-    background-color: lightgray;
-  }
- 
+    /*MenuAbout side */ 
+    .sectionAbout .menu{
+        border: 1px solid rgb(255, 255, 255);
+        width: 250px; 
+        float: left;
+        background-color: #983FAA;
+        height: 350px;
+        block-size: 200px;
+        text-indent: 10px;
+        word-spacing: 10px;
+        text-align: left;
+        margin-top: 10%;
+    }
+
+    .sectionAbout .imageAbout{
+        border: 1px solid rgb(255, 255, 255);
+        width: 50%;
+        height: 400; 
+        margin-top: 100px; 
+        margin-left: 15%; 
+        float: left;
+    }
+    
+
+
+    .menu li a{
+        color: white;
+        font-size: 20px;
+        margin-left: 20px;  
+        align-items: left;
+        display: inline-block;
+        margin: 0 8px;
+        line-height: 60px;
+        font-family: myFont;
+    }
+
+    .sectionAbout .description{
+        width: 35%; 
+        height: 500; 
+        margin-bottom: 20px;
+        margin-left: 50%; 
+        font-size: 18px;
+        font-family: myFont1;
+
+    }
+    h1{
+        font-family: myFont;
+    }
+
  </style> 
   
 
@@ -69,105 +110,36 @@
 <main>
       
         <h1>About us</h1>
-
-    
-        <div class="grid">
-            <div>
-                <a href="#mission"><button id="mission">Mission</button></a>
-                <a href="#vision"><button id="vision">Vision</button></a>
-                <a href="#objective"><button id="objective">objective</button></a>
-            </div>
-            <div> 
-                <img src="/home/huda/TAREA/assignment-2a/website-content/images/team.jpg" width="1000">
+        <section class="sectionAbout"> 
+            <ul class="menu">
+                <li class="menu-item"><a href="mission.html">Mission</a></li>
+                <li class="menu-item"><a href="vision.html">Vision</a></li>
+                <li class="menu-item"><a href="objective.html">Objective</a></li>
+            </ul>
+            <section class="imageAbout">
+                <img src="/home/huda/TAREA/assignment-2a/website-content/images/team.jpg" width="1000">      
+            </section>
+            <br>   
+            <br>
+            <br>   
+            <br>
+            <br>   
+            <br>
+            <section class="description">
                 <h1>Cofounders</h1>
                 <p><strong>Paloma Soto</strong> is a Bolivian womam who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. She is an exteremly talented and fun individual and likes to workout and go for Jogs. She has completed her Bacherlors Systems Engineering from Military Engineering School, University that works in different Engineering Specialities.</p>
                 <p><strong>Allen Kodiyan</strong> is an Indian man who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. He is a wonderful professional in IT field, he likes to enjoy evenings with friends and a couple of cigs. He also finished his Bachelor in Information Technology Engineering from University of Mumbai.</p>
-                <div class="x-box">
-                    <div class="x-box-cont"></div>
-                    <strong style="color: #ff0000">Spanish students 50%</strong>
-                    <strong style="color: #006600">Hindi 20%</strong>
-                    <strong style="color: #ffff00">German students 30%</strong>
-                </div>
-            </div>
-            <div></div>
-        
+            </section>    
 
 
-            <div>
-                <a href="#mission"><button id="mission">Mission</button></a>
-                <a href="#vision"><button id="vision">Vision</button></a>
-                <a href="#objective"><button id="objective">objective</button></a>
-            </div>
-            <div>
-                <img src="/home/huda/TAREA/assignment-2a/website-content/images/mission.jpg" width="1000">
-            </div>
-               
-                
-            <div>
-                <p>To develope Multilingualism in people and make help them to integrate into different types of Society in different parts of the world -To train preofessionals in different languages and help them work efficently in different parts of the world.</p>
-            </div>
-        
-            <div><p>iujhzgfghujilpäokijhgfhjko</p></div>
-            <div><p>iujhzgfghujilpäokijhgfhjko</p></div>
-            <div><p>iujhzgfghujilpäokijhgfhjko</p></div>
-        
-            <div> 
-                <a href="#mission"><button id="mission">Mission</button></a>
-                <a href="#vision"><button id="vision">Vision</button></a>
-                <a href="#objective"><button id="objective">objective</button></a>
-            </div>
-            <div><video width="1000" height="600" controls> 
-                <source src="/home/huda/TAREA/assignment-2b/video/video2.mp4" type="video/mp4"></video>
-            </div>
-
-            <div>
-                <p>Enabling Language access to everyone in an easy way Employing deserving Language professionals Integration of Different Culture.</p>
-            </div>
-
-        </div>
-    
- <!--       <section id="about" class="sectionAbout"> 
-            <div class="button">
-                <a href="#mission"><button id="mission">Mission</button></a>
-                <a href="#vision"><button id="vision">Vision</button></a>
-                <a href="#objective"><button id="objective">objective</button></a>
-            </div>
-            <img src="/home/huda/TAREA/assignment-2a/website-content/images/team.jpg" width="800">
-            <div class="description">
-                <h1>Cofounders</h1>
-                <p><strong>Paloma Soto</strong> is a Bolivian womam who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. She is an exteremly talented and fun individual and likes to workout and go for Jogs. She has completed her Bacherlors Systems Engineering from Military Engineering School, University that works in different Engineering Specialities.</p>
-                <p><strong>Allen Kodiyan</strong> is an Indian man who is pursuing her Masters Degree in Cyber Security at BTU Cottbus. He is a wonderful professional in IT field, he likes to enjoy evenings with friends and a couple of cigs. He also finished his Bachelor in Information Technology Engineering from University of Mumbai.</p>
-                <div class="x-box">
-                    <div class="x-box-cont"></div>
-                    <strong style="color: #ff0000">Spanish students 50%</strong>
-                    <strong style="color: #006600">Hindi 20%</strong>
-                    <strong style="color: #ffff00">German students 30%</strong>
-                </div>
+            <div class="x-box">
+                <div class="x-box-cont"></div>
+                    <strong style="color: #ff0000"></strong>
+                    <strong style="color: #006600"></strong>
+                    <strong style="color: #ffff00"></strong>
             </div>
         </section>
-
-        <section id="mission" class="sectionMission">
-                <img src="/home/huda/TAREA/assignment-2a/website-content/images/mission.jpg" width="700">
-               
-                <p>To develope Multilingualism in people and make help them to integrate into different types of Society in different parts of the world -To train preofessionals 
-                in different languages and help them work efficently in different parts of the world.</p>
-        </section>
-
-        <section id="objective" class="sectionObjective">
-                <p>Enabling Language access to everyone in an easy way Employing deserving Language professionals Integration of Different Culture.</p>
-                
-                <video width="500" height="700" controls>
-                    <source src="" type="video/mp4">
-                </video>
-                
-        </section>
-
-
-
-
-   Footer -->
-
-        
+   
     <footer>
         <div class="container">
           <div class="footer-right">

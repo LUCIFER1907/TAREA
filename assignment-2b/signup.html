@@ -31,6 +31,7 @@
         padding: 0 0 20px 0; 
         border-bottom: 1px solid white;
         color: white;
+        font-family: myFont;
     } 
     .signupCenter form{   
         padding: 0 40px;
@@ -40,6 +41,7 @@
         position: relative;
         margin: 30px 0;
         color: white;
+        font-family: myFont;
     }
     .textField input{
         width: 100%;
@@ -49,17 +51,7 @@
         border: white;
         background: white;
         outline: white;
-    }
-
-    .textField span::before{
-        content: '';
-        position: absolute;
-        top: 40px;
-        left: 0;
-        width: 0%;
-        height: 2px;
-        background: #2691d9;
-        transition: .5s;
+      
     }
 
     input[type="submit"]{
@@ -74,6 +66,7 @@
         font-weight: 700;
         cursor: pointer;
         outline: none;
+        font-family: myFont;
    
     }
 
@@ -87,7 +80,7 @@
  <!--Header-->
     <!--Header-->
     <header>
-        <a href="#"><img id="logo" src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg"></a>
+        <a href="#"><img id="logo" src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg"></a><!--here change yr path-->
         <div class="navigation">
             <a class="active" href="index.html">Home</a>
             <a href="about.html">About</a>
@@ -105,28 +98,28 @@
         <form method="post">
             <div class="textField"> 
                 <label>*Name</label>
-                <input type="text" required> 
+                <input type="text"> 
                 <span></span> 
             </div>
             <div class="textField"> 
                 <label>*Email</label>
-                <input type="text" required> 
+                <input type="text"> 
                 <span></span> 
             </div>
             <div class="textField">
                 <label>*Password</label>
-                <input type="password" required> 
+                <input type="password"> 
                 <span></span> 
             </div>
             <div class="textField">
                 <label>*Re-type Password</label>
-                <input type="password" required> 
+                <input type="password"> 
                 <span></span> 
             </div>
             <div class="pass">learn more</div>
             <p> I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p> 
             <input type="submit" value="Sign-up">
-            <input type="submit" value="Already a user" formaction="file:///home/huda/TAREA/assignment-2b/login.html">
+            <input type="submit" value="Already a user" formaction="file:///home/huda/TAREA/assignment-2b/login.html"><!--here change yr path-->
         </form>
 
     </div>
@@ -137,7 +130,7 @@
     <footer>
         <div class="container">
           <div class="footer-right">
-            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/instagram-logo.png" alt="Instagram logo"></a>
+            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/instagram-logo.png" alt="Instagram logo"></a><!--here change yr path-->
             <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/twitter-logo.png" alt="Twitter logo"></a>
             <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/facebook-logo.png" alt="Facebook logo"></a>
           </div>

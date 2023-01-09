@@ -12,12 +12,12 @@
 
 </head>
 <style>
-    .sectionMission {
+    .sectionMission .imageMission{
         border: 1px solid rgb(255, 255, 255);
-        width: 30%; 
-        height: 350; 
-        margin-top: 80px; 
-        margin-left: 25%; 
+        width: 50%;
+        height: 400; 
+        margin-top: 200px; 
+        margin-left: 8%; 
         float: left;
     }
 
@@ -25,9 +25,38 @@
         border: 1px solid rgb(255, 255, 255);
         width: 15%; 
         height: 350; 
-        margin-top: 80px; 
-        margin-left: 25%; 
+        margin-top: -300px; 
+        margin-left: 77%; 
         float: left;
+        font-size: 18px;
+        font-family: myFont1;
+    }
+
+    .sectionMission .menu{
+        border: 1px solid rgb(255, 255, 255);
+        width: 250px; 
+        float: left;
+        background-color: #983FAA;
+        height: 350px;
+        block-size: 200px;
+        text-indent: 10px;
+        word-spacing: 10px;
+        text-align: left;
+        margin-top: 10%;
+    }
+    
+    .menu li a{
+        color: white;
+        font-size: 20px;
+        margin-left: 20px;  
+        align-items: left;
+        display: inline-block;
+        margin: 0 8px;
+        line-height: 60px;
+        font-family: myFont;
+    }
+    h1{
+        font-family: myFont;
     }
 
 
@@ -52,24 +81,22 @@
     
     <main>
         <h1>About us</h1>
-        <section class="sectionMission">
-            <img src="/home/huda/TAREA/assignment-2a/website-content/images/mission.jpg" width="700">
-        </section>    
-            <p class="paraMission">To develope Multilingualism in people and make help them to integrate into different types of Society in different parts of the world -To train preofessionals in different languages and help them work efficently in different parts of the world.</p>
+        <section class="sectionMission"> 
+            <ul class="menu">
+                <li class="menu-item"><a href="mission.html">Mission</a></li>
+                <li class="menu-item"><a href="vision.html">Vision</a></li>
+                <li class="menu-item"><a href="objective.html">Objective</a></li>
+            </ul>
 
+            <section class="imageMission">
+                <img src="/home/huda/TAREA/assignment-2a/website-content/images/mission.jpg" width="1000">
+            </section>   
         
-            <section class="changeButton">
-                <a href="/home/huda/TAREA/assignment-2b/mission.html"><button id="mission">Mission</button></a>
-                <a href="/home/huda/TAREA/assignment-2b/vision.html"><button id="vision">Vision</button></a>
-                <a href="/home/huda/TAREA/assignment-2b/objective.html"><button id="objective">objective</button></a>
-    
-    
-              
+            <section class="paraMission">
+                <p>To develope Multilingualism in people and make help them to integrate into different types of Society in different parts of the world. <br> <br>To train preofessionals in different languages and help them work efficently in different parts of the world.</p>
             </section>
-            <aside>
-    
-                
-            </aside>
+        </section>
+
         <!--Footer -->
     
     <!--Footer -->
