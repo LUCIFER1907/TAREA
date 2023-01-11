@@ -223,11 +223,11 @@ Language Course Videos
         <th>Nour elhouda Benaida</th>
     </tr>
     <tr>
-        <th>contact.html <br> forgot.html <br> course.html <br> vision.html <br> Hosting pages</th>
+        <th>contact.html <br> forgot.html <br> course.html <br> vision.html <br> style.css <br> Hosting pages</th>
         <th>Noel Leshica</th>
     </tr>
     <tr>
-        <th>walloffame.html <br> spanishlanguage.html <br> hindilanguage.html <br> spanishlanguage.html <br> exam.html <br> career.html <br> Hosting pages</th>
+        <th>walloffame.html <br> spanishlanguage.html <br> hindilanguage.html <br> spanishlanguage.html <br> exam.html <br> career.html <br> style.css> <br> Hosting pages</th>
         <th>Cami Gregi</th>
     </tr>
 </table>
