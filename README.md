@@ -223,7 +223,7 @@ Language Course Videos
         <th>Nour elhouda Benaida</th>
     </tr>
     <tr>
-        <th>contact.html <br> forgot.html <br> course.html <br> objective.html <br> vision.html <br> Hosting pages</th>
+        <th>contact.html <br> forgot.html <br> course.html <br> vision.html <br> Hosting pages</th>
         <th>Noel Leshica</th>
     </tr>
     <tr>
