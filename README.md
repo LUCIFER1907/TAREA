@@ -210,3 +210,24 @@ Language Course Videos
    - [Learn to Read and Write Hindi](https://www.youtube.com/playlist?list=PLt0oEzsnHGgL8Sncvj-CXnJhg5EvTcEyg)
    - [Spanish Lessons for Beginner Learners](https://www.youtube.com/playlist?list=PLv63dFTP4Sjq6knRsZQI-bTnRE38cZZoy)
    - [A1 | Learn German for beginners](https://www.youtube.com/playlist?list=PLF9mJC4RrjIhS4MMm0x72-qWEn1LRvPuW)
+
+
+### Division of work [Developers]
+<table>
+    <tr>
+        <th>Task</th>
+        <th>Responsible person</th>
+    </tr>
+    <tr>
+        <th>Index.html <br> about.html <br> mission.html <br> objective.html <br> login.html <br> signup.html <br> style.css <br> Hosting pages</th>
+        <th>Nour elhouda Benaida</th>
+    </tr>
+    <tr>
+        <th>contact.html <br> forgot.html <br> course.html <br> objective.html <br> vision.html <br> Hosting pages</th>
+        <th>Noel Leshica</th>
+    </tr>
+    <tr>
+        <th>walloffame.html <br> spanishlanguage.html <br> hindilanguage.html <br> spanishlanguage.html <br> exam.html <br> career.html <br> Hosting pages</th>
+        <th>Cami Gregi</th>
+    </tr>
+</table>
