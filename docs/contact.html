@@ -2,271 +2,158 @@
 <html lang="en">
 
 <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOKO</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
-    <meta charset="UTF-8">
-    <title>contact</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+
 
     <style>
-        @font-face {
-            font-family: myFont;
-            src: url(Quantum.otf);
+        .x-box {
+            width: 20vh;
+            height: 20vh;
+            border-radius: 50%;
+            background-color: red;
+            margin-left: 600px;
+            margin-top: -180px;
+
+
+            background: repeating-conic-gradient(from 0deg,
+                    #ff0000 0deg calc(3.6deg*50),
+                    #006600 calc(3.6deg*50) calc(3.6deg*70),
+                    #ffff00 calc(3.6deg*70) calc(3.6deg*100));
         }
 
-        h1 .navigation {
-            font-family: myFont;
+        .x-box-cont {
+            font-size: 30px;
+            padding-left: 20px;
         }
 
-        @font-face {
-            font-family: myFont1;
-            src: url(Dream\ Orphans.otf);
-        }
 
-        p label {
-            font-family: myFont1;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            text-decoration: none;
-            list-style: none;
-        }
-
-        body {
-            background-color: #e2c8e7;
-            font-family: myFont1;
-        }
-
-        .contact-box {
-            width: 500px;
-            background-color: #e2c8e7;
-            box-shadow: 0 0 20px 0 #e2c8e7;
-            top: 50%;
-            left: 70%;
-            transform: translate(-50%, -50%);
-            position: absolute;
-        }
-
-        form {
-            margin: 35px;
-        }
-
-        .input-field {
-            width: 400px;
-            height: 40px;
-            margin-top: 20px;
-            padding-left: 10px;
-            padding-right: 10px;
-            border: 1px solid #e2c8e7;
-            border-radius: 14px;
-            outline: none;
-        }
-
-        .textarea-field {
-            height: 150px;
-            padding-top: 10px;
-        }
-
-        .btn {
-            border: solid 2px;
-            color: #000000;
-            margin-top: 30px;
-            padding: 11px;
-            background-color: #e2c8e7;
-            font-size: 12px;
-            font-family: myFont1;
-            cursor: pointer;
-            ;
-        }
-
-        .block {
-            width: 100%;
-            overflow: hidden;
-            position: relative;
-            left: 10px;
-        }
-
-        .image-w img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-
-        .block .image-w {
+        /*MenuAbout side */
+        .sectionAbout .menu {
+            border: 1px solid rgb(255, 255, 255);
+            width: 250px;
             float: left;
-        }
-
-        .block .text-w {
-            float: left;
-        }
-
-        @media (min-width: 40em) {
-
-            .block {
-                padding-top: 1.5em;
-            }
-
-            .block .image-w {
-                max-width: 15em;
-                margin-right: 2em;
-            }
-
-            .block .text-w {
-                float: none;
-                max-width: 50em;
-            }
-
-        }
-
-        .container {
-            vertical-align: 20%;
-        }
-
-        .block img {
-            width: 100px;
-            height: 100px;
-        }
-
-        .navigation {
             background-color: #983FAA;
-            margin: auto;
-            width: 90%;
-            border: 1px solid #000000;
-            padding: 10px 0;
-            margin-bottom: 100px;
-            text-indent: 25px;
+            height: 350px;
+            block-size: 200px;
+            text-indent: 10px;
             word-spacing: 10px;
-            text-align: center;
-            font-size: 18px;
-            font-family: myFont;
-
+            text-align: left;
+            margin-top: 10%;
         }
 
-        .navigation a {
+        .sectionAbout .imageAbout {
+            border: 1px solid rgb(255, 255, 255);
+            width: 50%;
+            margin-top: 100px;
+            margin-left: 15%;
+            float: left;
+        }
+
+
+
+        .menu li a {
             color: white;
-            margin-left: 40px;
+            font-size: 20px;
+            margin-left: 20px;
             display: inline-block;
             margin: 0 8px;
             line-height: 60px;
+            font-family: myFont;
+        }
+
+        .sectionAbout .description {
+            width: 35%;
+            margin-bottom: 20px;
+            margin-left: 50%;
+            font-size: 18px;
+            font-family: myFont1;
 
         }
 
-        #logo {
-            margin: 15px;
-            float: left;
-            height: 50px;
-            width: auto;
-            border-radius: 10%;
-        }
-
-        footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            background-color: #e2c8e7;
-            color: #fff;
-        }
-
-        .container {
-            max-width: 95%;
-            margin: 0 auto;
-            padding: 20px 0;
-
-        }
-
-        .footer-right {
-            float: right;
-        }
-
-        .footer-right img {
-            width: 23.5%;
-            height: 32px;
-            margin-left: 10px;
+        h1 {
+            font-family: myFont;
         }
     </style>
 </head>
 
+
+
 <body>
+    <!--Header-->
     <header>
-        <a href="index.html"><img id="logo" src="soko_logo.svg" alt="Soko logo"></a>
-        <!-- Don't forget to change the logo link so it connects. Also "#"-->
+        <a href="index.html"><img id="logo" alt="" src="soko_logo.svg"></a>
         <div class="navigation">
-            <a class="active"
-                href="index.html">Home</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
-            <a href="about.html">About</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
-            <a
-                href="contact.html">Contact</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
-            <a href="login.html">Login</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
-            <a
-                href="courses.html">Courses</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
-            <a href="exam.html">Exam</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
-            <a href="walloffame.html">Wall Of
-                Fame</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
-            <a href="#career.html">Career</a><!-- Don't forget to add the links of other pages. Change the "#" part. -->
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="courses.html">Courses</a>
+            <a href="exam.html">Exam</a>
+            <a href="walloffame.html">Wall Of Fame</a>
+            <a href="career.html">Career</a>
         </div>
     </header>
-    <div class="container">
-        <div class="block">
-            <div class="image-w">
-                <img src="Location.png" alt="map photo"> <!-- Don't forget to change the image link so it connects. -->
-            </div>
-            <div class="text-w">
-                <p><b>SOKO Cottbus</b></p>
-                <p>403-5, Erich Wienert Str 4, App. 403-5, 03046, Cottbus</p>
-                <p>+49-10015252329</p>
-                <p>cottbus@soko.com</p>
-            </div>
-        </div>
+    <!--Main-->
+    <main>
 
-        <div class="block">
-            <div class="image-w">
-                <img src="Location.png" alt="map photo"> <!-- Don't forget to change the image link so it connects. -->
+        <h1>About us</h1>
+        <section class="sectionAbout">
+            <ul class="menu">
+                <li class="menu-item"><a href="mission.html">Mission</a></li>
+                <li class="menu-item"><a href="vision.html">Vision</a></li>
+                <li class="menu-item"><a href="objective.html">Objective</a></li>
+            </ul>
+            <section class="imageAbout">
+                <img src="team.jpg" alt="Team Photo" width="1000">
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section class="description">
+                <h1>Cofounders</h1>
+                <p><strong>Paloma Soto</strong> is a Bolivian womam who is pursuing her Masters Degree in Cyber Security
+                    at BTU Cottbus. She is an exteremly talented and fun individual and likes to workout and go for
+                    Jogs. She has completed her Bacherlors Systems Engineering from Military Engineering School,
+                    University that works in different Engineering Specialities.</p>
+                <p><strong>Allen Kodiyan</strong> is an Indian man who is pursuing her Masters Degree in Cyber Security
+                    at BTU Cottbus. He is a wonderful professional in IT field, he likes to enjoy evenings with friends
+                    and a couple of cigs. He also finished his Bachelor in Information Technology Engineering from
+                    University of Mumbai.</p>
+            </section>
+
+
+            <div class="x-box">
+                <div class="x-box-cont"></div>
+                <strong style="color: #ff0000"></strong>
+                <strong style="color: #006600"></strong>
+                <strong style="color: #ffff00"></strong>
             </div>
-            <div class="text-w">
-                <p><b>SOKO Mumbai</b></p>
-                <p>F-8, Wenden Avenue, Central Railway Quarters,</p>
-                <p>Matunga, Mumbai, 400019</p>
-                <p>+91-7738649869</p>
-                <p>mumbai@soko.com</p>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-right">
+                    <a href="https://www.instagram.com"><img src="instagram-logo.png" alt="Instagram logo"></a>
+                    <a href="https://www.twitter.com"><img src="twitter-logo.png" alt="Twitter logo"></a>
+                    <a href="https://www.facebook.com"><img src="facebook-logo.png" alt="Facebook logo"></a>
+                </div>
             </div>
-        </div>
-        <div class="block">
-            <div class="image-w">
-                <img src="Location.png" alt="map photo"> <!-- Don't forget to change the image link so it connects. -->
-            </div>
-            <div class="text-w">
-                <p><b>SOKO La Paz</b></p>
-                <p>21 Calacoto Street, General Inofuentes Avenue, 1515</p>
-                <p>+591-72515554</p>
-                <p>la_paz@soko.com</p>
-            </div>
-        </div>
-    </div>
-    <div class="contact-box">
-        <form>
-            <div class="row">
-                <h1>Message us</h1>
-            </div>
-            <input type="email" class="input-field" placeholder="Email">
-            <input type="text" class="input-field textarea-field" placeholder="Text">
-            <button type="button" class="btn">Submit</button>
-        </form>
-    </div>
-    <footer>
-        <div class="container">
-            <div class="footer-right">
-                <a href="https://www.instagram.com"><img src="instagram-logo.png" alt="Instagram logo"></a>
-                <!-- Don't forget to change the logo link so it connects. Also the "#" for the instagram link. -->
-                <a href="https://www.twitter.com"><img src="twitter-logo.png" alt="Twitter logo"></a>
-                <!-- Don't forget to change the logo link so it connects. Also the "#" for the twitter link.-->
-                <a href="https://www.facebook.com"><img src="facebook-logo.png" alt="Facebook logo"></a>
-                <!-- Don't forget to change the logo link so it connects. Also the "#" for the facebook link. -->
-            </div>
-        </div>
-    </footer>
+        </footer>
+
+    </main>
+
 </body>
 
 </html>
