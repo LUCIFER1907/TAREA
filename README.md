@@ -227,7 +227,7 @@ Language Course Videos
         <th>Noel Leshica</th>
     </tr>
     <tr>
-        <th>walloffame.html <br> spanishlanguage.html <br> hindilanguage.html <br> spanishlanguage.html <br> exam.html <br> career.html <br> style.css <br> Hosting pages</th>
+        <th>walloffame.html <br> spanishlanguage.html <br> hindilanguage.html<br> spanishlanguage.html <br> exam.html <br> career.html <br> style.css <br> Hosting pages</th>
         <th>Cami Gregi</th>
     </tr>
 </table>
