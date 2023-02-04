@@ -22,7 +22,7 @@ p label {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-
+  letter-spacing: 2px;
 
 }
 
@@ -46,8 +46,16 @@ body {
   text-indent: 25px;
   word-spacing: 10px;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.5rem;
   font-family: myFont;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: #983FAA;
+}
+
+.active {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 #logo {
@@ -65,7 +73,6 @@ body {
   display: inline-block;
   margin: 0 8px;
   line-height: 60px;
-
 }
 
 /*about.html */
@@ -128,7 +135,8 @@ iframe {
   text-align: center;
   font-family: myfont1;
   font-size: 20px;
-
+  border-radius: 50px;
+  padding: 1rem;
 }
 
 /*contact.html */
@@ -145,6 +153,8 @@ iframe {
   float: right;
   margin-right: 100px;
   margin-top: -550px;
+  padding: 4rem;
+  border-radius: 50px;
 }
 
 #messageus-form {
@@ -152,7 +162,8 @@ iframe {
   flex-direction: column;
 }
 
-#email-input[type="email"], textarea {
+#email-input[type="email"],
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -170,10 +181,13 @@ iframe {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  border-radius: 50px;
 }
 
 #submit-contact[type="submit"]:hover {
-  background-color: #45a049;
+  color: #983FAA;
+  background-color: white;
+  border: 1px Solid #983FAA;
 }
 
 
@@ -226,30 +240,6 @@ iframe {
   height: 100px;
 }
 
-.navigation-contact {
-  background-color: #983FAA;
-  margin: auto;
-  width: 90%;
-  border: 1px solid #000000;
-  padding: 10px 0;
-  margin-bottom: 100px;
-  text-indent: 25px;
-  word-spacing: 10px;
-  text-align: center;
-  font-size: 18px;
-  font-family: myFont;
-
-}
-
-.navigation-contact a {
-  color: white;
-  margin-left: 40px;
-  display: inline-block;
-  margin: 0 8px;
-  line-height: 60px;
-
-}
-
 #logo-contact {
   margin: 15px;
   float: left;
@@ -271,7 +261,7 @@ iframe {
 #exam-h1 {
   text-align: center;
   font-family: myFont;
-  color: #000000;
+  color: #fff;
 }
 
 
@@ -286,6 +276,7 @@ input,
 select {
   font-size: 18px;
   margin: 10px auto;
+  cursor: pointer;
 }
 
 input[type="text"] {
@@ -300,9 +291,9 @@ input[type="time"] {
 }
 
 form .textField {
-  position: relative;
-  margin: 30px 0;
+  justify-content: center;
   color: white;
+  width: 100%;
 }
 
 .textField input {
@@ -315,6 +306,7 @@ form .textField {
   outline: white;
   font-size: 14px;
   font-family: myfont1;
+  border-radius: 50px;
 }
 
 .textField select {
@@ -342,12 +334,19 @@ input[type="submit"] {
 
 }
 
+.exam-submit:hover {
+  background-color: white;
+  color: #b880c4;
+}
+
 .box-exam {
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
   background: #983FAA;
   border: 1px solid #ccc;
   padding: 20px;
+  border-radius: 50px;
+  padding: 4rem;
 }
 
 #exam-body {
@@ -504,18 +503,22 @@ input[type="submit"] {
 
 .middle-img-wall {
   width: 100%;
-  height: 200px;
+  height: 250px;
+  border-radius: 10%;
 }
 
 .boxphoto-wall {
   width: 350px;
-  height: 400px;
+  height: 500px;
   border: 2px solid black;
   margin: 10px;
   display: inline-block;
   text-align: center;
   font-size: 18px;
   font-family: myfont1;
+  border-radius: 10%;
+  overflow: hidden;
+  padding: 1rem;
 }
 
 #wall-body {
@@ -532,9 +535,7 @@ input[type="submit"] {
 #body-courses {
   background: #e2c8e7;
   font-family: myFont1;
-  position: relative;
   text-align: center;
-
 }
 
 .navigation-courses {
@@ -579,10 +580,23 @@ input[type="submit"] {
 
 .box-courses {
   border: 1px solid black;
-  height: 150px;
+  border-radius: 50px;
+  padding: 2rem;
   margin: 20px;
   text-align: center;
   width: 300px;
+  letter-spacing: 2px;
+}
+
+.box-courses:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: #983FAA;
+}
+
+#footer-courses {
+  margin-top: 2rem;
+  letter-spacing: 2px;
 }
 
 /*forgot.html */
@@ -668,7 +682,6 @@ input[type="submit"] {
 }
 
 #footer-forgot {
-
   margin-top: 8em;
 
 }
@@ -676,9 +689,8 @@ input[type="submit"] {
 /* login.html*/
 
 #login-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh
+  height: 100vh;
+  font-size: 1.2rem;
 }
 
 .loginCenter {
@@ -688,7 +700,8 @@ input[type="submit"] {
   transform: translate(-50%, -50%);
   width: 400px;
   background: #983FAA;
-  border-radius: 10px;
+  border-radius: 50px;
+  padding: 2rem;
 }
 
 .loginCenter h1 {
@@ -769,10 +782,11 @@ button[type="button"] {
 
 .slider {
   position: relative;
-  width: 100%;
+  width: 50vw;
   overflow: hidden;
   align-items: center;
   justify-content: center;
+  margin-left: 20rem;
 
 }
 
@@ -780,15 +794,14 @@ button[type="button"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 115vw;
 }
 
 .images img {
-
   align-items: center;
   transition: all 0.15s ease;
-  width: 1000px;
-  height: 1000px;
+  width: 100vw;
+  height: 70vh;
 }
 
 .images input {
@@ -798,7 +811,8 @@ button[type="button"] {
 .dots {
   display: flex;
   justify-content: center;
-  margin: 5px;
+  margin-left: 16rem;
+  margin-top: 2rem;
 }
 
 .dots label {
@@ -816,55 +830,60 @@ button[type="button"] {
 }
 
 #img1:checked~.m1 {
-  margin-left: 0;
+  margin-left: 4425px;
 }
 
 #img2:checked~.m2 {
-  margin-left: -100%;
+  margin-left: 3100px;
 }
 
 #img3:checked~.m3 {
-  margin-left: -200%;
+  margin-left: 1750px;
 }
 
 #img4:checked~.m4 {
-  margin-left: -300%;
+  margin-left: 400px;
 }
 
 #img5:checked~.m5 {
-  margin-left: -400%;
+  margin-left: 400px;
+  margin-right: 1400px;
 }
 
 #img6:checked~.m6 {
-  margin-left: -500%;
+  margin-left: 700px;
+  margin-right: 3000px;
 }
 
 #img7:checked~.m7 {
-  margin-left: -600%;
+  margin-left: 1000px;
+  margin-right: 4600px;
 }
 
 #img8:checked~.m8 {
-  margin-left: -700%;
+  margin-left: 600px;
+  margin-right: 5600px;
 }
 
 #img9:checked~.m9 {
-  margin-left: -800%;
+  margin-left: 600px;
+  margin-right: 6900px;
 }
 
 .sectionIndex {
 
-  width: 80px;
-  height: 80px;
-  margin-top: -200px;
+  width: 20px;
+  height: 20px;
+  margin-top: -100px;
   margin-left: 30%;
   float: left;
 }
 
 #youtube-playlistindex {
-  width: 900px;
-  height: 700px;
+  width: 75em;
+  height: 36rem;
   left: 30%;
-  top: 86%;
+  margin-top: 10rem;
   margin-left: 100%;
   border: 2px solid black;
 }
@@ -977,6 +996,8 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  border-radius: 50px;
+  letter-spacing: 2px;
 }
 
 footer a {
@@ -986,8 +1007,22 @@ footer a {
 }
 
 footer img {
-  height: 40px;
+  height: 25px;
+  width: 25px;
   margin-right: 20px;
+}
+
+.icons {
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  color: #ce5937;
+}
+
+.icons>img {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
 }
 
 .footer-links {
