@@ -6,7 +6,6 @@
     <title>Sign Up</title>
     <meta charset="UTF-8" />
     <meta name="description" content="This is the webpage where you can register or signup your account.">
-    <meta name="keywords" content="Course, Exam, Language, Spanish, German, Hindi">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
@@ -38,7 +37,7 @@
 
     <div class="signupCenter">
         <h1>Sign Up</h1>
-        <form id="signup-form" method="post">
+        <!-- <form id="signup-form" method="post">
             <div class="textFieldsignup">
                 <label>*Name</label>
                 <input type="text">
@@ -63,20 +62,42 @@
             <p> I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
             <input id="input-signup" type="submit" value="Sign-up">
             <button id="button-signup" type="button" onclick="window.location.href='login.html'">Already a User</button>
-        </form>
-
+        </form> -->
+        <form id="signup-form" method="post">
+            <div class="textFieldsignup">
+              <label for="name">*Name</label>
+              <input id="name" type="text">
+              <span></span>
+            </div>
+            <div class="textFieldsignup">
+              <label for="email">*Email</label>
+              <input id="email" type="text">
+              <span></span>
+            </div>
+            <div class="textFieldsignup">
+              <label for="password">*Password</label>
+              <input id="password" type="password">
+              <span></span>
+            </div>
+            <div class="textFieldsignup">
+              <label for="retype-password">*Re-type Password</label>
+              <input id="retype-password" type="password">
+              <span></span>
+            </div>
+            <div class="pass">learn more</div>
+            <p> I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
+            <input id="input-signup" type="submit" value="Sign-up">
+            <button id="button-signup" type="button" onclick="window.location.href='login.html'">Already a User</button>
+          </form>
     </div>
 
-    <!--Footer -->
-
-    <footer id="footer-signup">
+    <footer id="footer-index">
         <div class="footer-links">
             <p><a href="contact.html">Contact</a></p>
             <p><a href="walloffame.html">Wall of Fame</a></p>
             <p><a href="career.html">Career</a></p>
         </div>
         <div>
-            <h3>Follow us</h3>
             <a href="https://instagram.com">
                 <img src="./images/instagram-logo.png" alt="Instagram logo">
             </a>
@@ -88,9 +109,6 @@
             </a>
         </div>
     </footer>
-
-
-
 
 </body>
 
