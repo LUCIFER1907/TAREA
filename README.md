@@ -239,7 +239,7 @@ Language Course Videos
         <th>Responsible person</th>
     </tr>
     <tr>
-        <th>Task 03: <br> ... <br> ... <br> ... <br> ... <br> ... <br> ... <br> ...</th>
+        <th>Task 03: <br> -Fixed the Slider. <br> -Add favicon to the website, extract the logo images. <br> Creating the Folders courses and Login to write the URLS <br> Write descriptions and keywords on the header <br> ... <br> ... <br> ...</th>
         <th>Nour elhouda Benaida</th>
     </tr>
     <tr>
