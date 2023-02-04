@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-</head>
 <style>
 
 
@@ -34,33 +33,33 @@
         color: white;
         font-size: 20px;
         margin-left: 20px;  
-        align-items: left;
+ 
         display: inline-block;
         margin: 0 8px;
         line-height: 60px;
     }
-    .sectionObjective .videoObjective{
-        height: 200; 
-        margin-top: -10%; 
-        margin-left: 20%; 
-        float: left;
-    }
-    #myVideo{
-        height: 500px; 
-        width: 100%;
-        object-fit: cover;
-        z-index: -100;
-    }
+
 
 
     .descriptionObjective{
         width: 15%; 
-        height: 350; 
+        height: 350px; 
         margin-top: -100px; 
         margin-left: 77%; 
         float: left;
         font-size: 18px;
         font-family: myFont1;
+    }
+   
+    #youtube-playlist {
+      position: absolute;
+      width: 800px;
+      height: 600px;
+      left: 54%;
+      top: 86%;
+      margin-left: -400px;
+      margin-top:  -500px;
+      border: 2px solid black;
     }
 
     h1{
@@ -68,11 +67,12 @@
     }
 
 </style>
+</head>
 <body>
 
  <!--Header-->
  <header>
-    <a href="#"><img id="logo" alt="" src="/home/huda/TAREA/assignment-2a/website-content/images/soko_logo.svg"></a><!--here change yr path-->
+    <a href="index.html"><img id="logo" alt="" src="soko_logo.svg"></a><!--here change yr path-->
     <div class="navigation">
         <a class="active" href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -101,9 +101,9 @@
             </section>
         
             <section class="videoObjective">
-            <video controls id="myVideo">
-                <source src="/home/huda/TAREA/assignment-2b/video/video2.mp4" type="video/mp4"><!--here change yr path-->
-            </video>
+            <iframe id="youtube-playlist" src="https://www.youtube.com/embed/cNxCs1keODg"></iframe>
+            </section>
+            
             
         </section>
         
@@ -113,9 +113,9 @@
     <footer>
         <div class="container">
           <div class="footer-right">
-            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/instagram-logo.png" alt="Instagram logo"></a><!--here change yr path-->
-            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/twitter-logo.png" alt="Twitter logo"></a>
-            <a href="#"><img src="/home/huda/TAREA/assignment-2b/images/facebook-logo.png" alt="Facebook logo"></a>
+            <a href="https://www.instagram.com"><img src="instagram-logo.png" alt="Instagram logo"></a><!--here change yr path-->
+            <a href="https://www.twitter.com"><img src="twitter-logo.png" alt="Twitter logo"></a>
+            <a href="https://www.facebook.com"><img src="facebook-logo.png" alt="Facebook logo"></a>
           </div>
         </div>
       </footer> 

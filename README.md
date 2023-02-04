@@ -210,3 +210,46 @@ Language Course Videos
    - [Learn to Read and Write Hindi](https://www.youtube.com/playlist?list=PLt0oEzsnHGgL8Sncvj-CXnJhg5EvTcEyg)
    - [Spanish Lessons for Beginner Learners](https://www.youtube.com/playlist?list=PLv63dFTP4Sjq6knRsZQI-bTnRE38cZZoy)
    - [A1 | Learn German for beginners](https://www.youtube.com/playlist?list=PLF9mJC4RrjIhS4MMm0x72-qWEn1LRvPuW)
+
+
+### Division of work 2b [Developers]
+<table>
+    <tr>
+        <th>Task</th>
+        <th>Responsible person</th>
+    </tr>
+    <tr>
+        <th>Index.html <br> about.html <br> mission.html <br> objective.html <br> login.html <br> signup.html <br> style.css <br> Hosting pages</th>
+        <th>Nour elhouda Benaida</th>
+    </tr>
+    <tr>
+        <th>contact.html <br> forgot.html <br> course.html <br> vision.html <br> style.css <br> Hosting pages</th>
+        <th>Noel Leshica</th>
+    </tr>
+    <tr>
+        <th>walloffame.html <br> spanishlanguage.html <br> hindilanguage.html<br> spanishlanguage.html <br> exam.html <br> career.html <br> style.css <br> Hosting pages</th>
+        <th>Cami Gregi</th>
+    </tr>
+</table>
+
+	
+### Division of work 2c [Developers]
+<table>
+    <tr>
+        <th>Task</th>
+        <th>Responsible person</th>
+    </tr>
+    <tr>
+        <th>Task 03: <br> ... <br> ... <br> ... <br> ... <br> ... <br> ... <br> ...</th>
+        <th>Nour elhouda Benaida</th>
+    </tr>
+    <tr>
+	    <th>Task 01: <br> - Fixed all <i>CSS style</i> into 1 style file. <br> - Fixed <b>Header</b> positions, from most important to least. <br> - Changed <i>Footer</i> and is richer... <i>Contact, Wall of Fame, Career</i> can be found at the footer. <br> - Added the name of the company to the main logo. <br> - Added more information and content to pages ex. <i>About, Career, Courses and Spanish, Hindi, German Languages.</i><br> - Previous <i>Mission, Vision, Objective</i> pages, are now incorporated within one page at <i>About.</i> <br> - Fixed path for images by using <i>relative paths.<i/> <br> - Fixed empty and non-meaningful values of alt attributes in img elements. <br> -Fixed general layout. <br> - Fixed any code errors. <br></th>
+        <th>Noel Leshica</th>
+    </tr>
+    <tr>
+        <th>Task 02: <br> ... <br> ... <br> ... <br> ... <br> ... <br> ... <br> ...</th>
+        <th>Cami Gregi</th>
+    </tr>
+</table>	
+	

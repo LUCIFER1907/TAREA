@@ -75,12 +75,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    color: #fff;
+    color: #983FAA;
   }
   
   .container {
-    max-width: 1200px;
+    max-width: 95%;
     margin: 0 auto;
     padding: 20px 0;
   }
@@ -90,7 +89,7 @@ footer {
   }
   
   .footer-right img {
-    width: 32px;
+    width: 23.5%;
     height: 32px;
     margin-left: 10px;
   }
