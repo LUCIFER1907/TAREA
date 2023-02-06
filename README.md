@@ -227,7 +227,7 @@ Language Course Videos
     </tr>
     <tr>
         <th>walloffame.html <br> spanishlanguage.html <br> hindilanguage.html<br> spanishlanguage.html <br> exam.html <br> career.html <br> style.css <br> Hosting pages</th>
-        <th>Cami Gregi</th>
+        <th>Gregi Cami</th>
     </tr>
 </table>
 
@@ -248,6 +248,6 @@ Language Course Videos
     </tr>
     <tr>
         <th>Task 02: <br> - Checked and fixed pages if usable without CSS <br> - Checked Font size on all sites <br> - Checked if used the correct color contrast foreground/background <br> - Provided textual alternatives for non-textual content <br> ... <br> ... <br> ...</th>
-        <th>Cami Gregi</th>
+        <th>Gregi Cami</th>
     </tr>
 </table>	
