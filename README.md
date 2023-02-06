@@ -247,7 +247,7 @@ Language Course Videos
         <th>Noel Leshica</th>
     </tr>
     <tr>
-        <th>Task 02: <br> - Checked and fixed pages if usable without CSS <br> - Checked Font size on all sites <br> - Checked if used the correct color contrast foreground/background <br> - Provided textual alternatives for non-textual content <br> ... <br> ... <br> ...</th>
+        <th>Task 02: <br> - Checked and fixed pages if usable without CSS <br> - Checked Font size on all sites <br> - Checked if used the correct color contrast foreground/background <br> - Provided textual alternatives for non-textual content <br> - Checked accessibility with Lighthouse tool, all pages over 95% <br> ... <br> ...</th>
         <th>Gregi Cami</th>
     </tr>
 </table>	
